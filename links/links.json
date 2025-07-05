@@ -41,6 +41,10 @@
     "Tidal": {
       "name": "Tidal",
       "link": "https://tidal.com/artist/62239650"
+    },
+    "Apple-Music": {
+      "name": "Apple Music",
+      "link": "https://music.apple.com/de/artist/rummelbude/1823224348"
     }
   }
 }
