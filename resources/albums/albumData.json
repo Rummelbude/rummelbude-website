@@ -3,8 +3,13 @@
     "name": "MORODER - pt. 3",
     "id": "21_MORODER_-_pt._3",
     "streaming": {
+      "Spotify": "https://open.spotify.com/album/4DxwxVI66UMeik9IzUpW99",
       "YouTube": "https://youtube.com/playlist?list=PLtiN0t0kunT5g7hHmU6owDmlyliJo_m2h",
-      "SoundCloud": "https://soundcloud.com/rummelbude_musik/moroder-pt-3"
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_lwDoVbuNnMtpwOLeKBsq7KRvxuyajxJ6w",
+      "SoundCloud": "https://soundcloud.com/rummelbude_musik/moroder-pt-3",
+      "Amazon Music": "https://music.amazon.com/albums/B0FFTLN6T7",
+      "Deezer": "https://link.deezer.com/s/30oi3cJ9MTWcGkWb6z9rc",
+      "Tidal": "https://tidal.com/album/444677307"
     },
     "video": "",
     "publishDate": "25.03.2025",
@@ -19,8 +24,13 @@
     "name": "Ducks Crossing",
     "id": "20_DucksCrossing",
     "streaming": {
+      "Spotify": "https://open.spotify.com/album/3sQfDUzdMoyqYlc3pbrx8q",
       "YouTube": "https://www.youtube.com/playlist?list=PLtiN0t0kunT6W8GjiqGgWAW8T9Rbmt6SJ",
-      "SoundCloud": "https://soundcloud.com/rummelbude_musik/ducks-crossing"
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_lDsSOmvUE0JXGHPypbGO79wG228x6z6-I",
+      "SoundCloud": "https://soundcloud.com/rummelbude_musik/ducks-crossing",
+      "Amazon Music": "https://music.amazon.com/albums/B0FFTLN6T7",
+      "Deezer": "https://link.deezer.com/s/30oi3cJ9MTWcGkWb6z9rc",
+      "Tidal": "https://tidal.com/album/444677307"
     },
     "video": "https://youtu.be/Gjjw9z29UjQ?si=P3ZZpMko3Z38i7hi",
     "publishDate": "26.12.2024",
@@ -35,8 +45,14 @@
     "name": "LOST",
     "id": "19_LOST",
     "streaming": {
+      "Spotify": "https://open.spotify.com/album/5qErwejNLIkC5cppVVJhXx",
       "YouTube": "https://youtube.com/playlist?list=PLtiN0t0kunT5fPhAC_SeQz8CSEil5LFj0",
-      "SoundCloud": "https://soundcloud.com/rummelbude_musik/lost"
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_mDi_luiAFOiJZHSpPMLN4TZyGsqPwhjZQ",
+      "SoundCloud": "https://soundcloud.com/rummelbude_musik/lost",
+      "Amazon Music": "https://music.amazon.de/albums/B0FFTM8M1M",
+      "Deezer": "https://link.deezer.com/s/30oi3PxQtoum8CehVpMoJ",
+      "Tidal": "https://tidal.com/album/444677988",
+      "Apple Music": "https://music.apple.com/de/album/lost-single/1823224341"
     },
     "video": "https://youtu.be/DdOyPjpCrUQ?si=98UrIdTawwn6bFJR",
     "publishDate": "02.09.2024",
@@ -80,7 +96,7 @@
       "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_kjh5onspHqMQi_J95PW8OMcE8BZ7kNxtw",
       "SoundCloud": "https://soundcloud.com/rummelbude_musik/sets/moroder",
       "Amazon Music": "https://music.amazon.com/albums/B0FDBCD262",
-      "Deezer": "https://www.deezer.com/en/album/773330901",
+      "Deezer": "https://link.deezer.com/s/30oi4uA4HcxzbGTLHxxAH",
       "Tidal": "https://tidal.com/album/442387756"
     },
     "video": "",
