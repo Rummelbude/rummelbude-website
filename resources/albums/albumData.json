@@ -67,8 +67,13 @@
     "name": "2ND EPISODE",
     "id": "18_2NDEPISODE",
     "streaming": {
+      "Spotify": "https://open.spotify.com/album/4qcCkIVRpX9zvTcuLBsC6i",
       "YouTube": "https://youtube.com/playlist?list=PLtiN0t0kunT7ZQbuQ6CnmP3m91q6AQGhk",
-      "SoundCloud": "https://soundcloud.com/rummelbude_musik/sets/2nd-episode"
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_lfcuGjARfBfBq7H07DYSHBXR6MpJ_DF3Y",
+      "SoundCloud": "https://soundcloud.com/rummelbude_musik/sets/2nd-episode",
+      "Amazon Music": "https://music.amazon.com/albums/B0FH2XQ18C",
+      "Deezer": "https://link.deezer.com/s/30v07YagU5NX4OWghIn4Q",
+      "Tidal": "https://tidal.com/album/446778168"
     },
     "video": "",
     "publishDate": "01.04.2024",
