@@ -1,12 +1,13 @@
-# SOURCE              REDIRECT
+# SOURCE                          REDIRECT
 
 # Redirect to real url
-rummelbude.pages.dev  rmlbu.de
+rummelbude.pages.dev              https://rmlbu.de
+https://rummelbude.pages.dev      https://rmlbu.de
 
 # Renamed pages
-/support              /kontakt
-/support/             /kontakt
+/support                          /kontakt
+/support/                         /kontakt
 
 # Redirects for short links
-/discord              https://discord.gg/6EPk75PrXb
-/discord/             https://discord.gg/6EPk75PrXb
+/discord                          https://discord.gg/6EPk75PrXb
+/discord/                         https://discord.gg/6EPk75PrXb
