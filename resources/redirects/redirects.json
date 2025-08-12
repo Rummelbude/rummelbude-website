@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source":  "rummelbude.pages.dev", "target": "https://rmlbu.de" },
+    { "source": "rummelbude.github.io", "target": "https://rmlbu.de" }
+  ]
+}

@@ -1,13 +1,11 @@
-# SOURCE                          REDIRECT
+# SOURCE                          REDIRECT                          STATUS CODE
 
-# Redirect to real url
-rummelbude.pages.dev              https://rmlbu.de
-https://rummelbude.pages.dev      https://rmlbu.de
+# Renamed pages (Permanent redirects)
+/rummelbude-website               /                                 301
+/rummelbude-website/*             /:splat                           301
+/support                          /kontakt                          301
+/support/                         /kontakt                          301
 
-# Renamed pages
-/support                          /kontakt
-/support/                         /kontakt
-
-# Redirects for short links
-/discord                          https://discord.gg/6EPk75PrXb
-/discord/                         https://discord.gg/6EPk75PrXb
+# Redirects for short links (Temporary redirects, as these may change in the future)
+/discord                          https://discord.gg/6EPk75PrXb     302
+/discord/                         https://discord.gg/6EPk75PrXb     302
