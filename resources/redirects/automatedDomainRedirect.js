@@ -1,4 +1,4 @@
-async function getRedirects(path = '/resources/redirects/redirects.json') {
+async function getRedirects(path = 'https://rmlbu.de/resources/redirects/redirects.json') {
     const res = await fetch(path, { headers: { Accept: 'application/json' } });
     if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status} ${res.statusText}`);
     const json = await res.json();
