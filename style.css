@@ -324,6 +324,14 @@ a {
     margin: 0;
 }
 
+.separatorLineWithMargin {
+    margin: 2vmin 0;
+}
+
+.musicServiceButton {
+    font-size: smaller;
+}
+
 #newMusic {
     a {
         text-decoration: none;

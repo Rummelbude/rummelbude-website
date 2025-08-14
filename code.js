@@ -1,3 +1,18 @@
+async function insertMusicLinks() {
+    try {
+        const response = await fetch('links/links.json');
+        const links = await response.json();
+
+        const insertionDiv = document.getElementById('musicServices');
+        Object.entries(links.music).forEach(([key, { name, link }]) => {
+            const linkElement = createLinkElement(name.replace(/ /g, '-'), link, "musicServiceButton");
+            insertionDiv.appendChild(linkElement);
+        });
+    } catch (error) {
+        console.error('Failed to insert links:', error);
+    }
+}
+
 async function loadAlbums() {
     const response = await fetch('resources/albums/albumData.json');
     const albumData = await response.json();
@@ -29,4 +44,5 @@ async function loadAlbums() {
 
 document.addEventListener("DOMContentLoaded", function() {
     loadAlbums();
+    insertMusicLinks();
 });

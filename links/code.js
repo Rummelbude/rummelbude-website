@@ -38,7 +38,7 @@ async function insertData() {
 
     // Create buttons for each category
     createButtons('general', generalDiv);
-    createButtons('music-services', musicServicesDiv);
+    createButtons('music', musicServicesDiv);
 }
 
 document.addEventListener("DOMContentLoaded", function() {

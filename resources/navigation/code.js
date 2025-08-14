@@ -55,10 +55,11 @@ function hideNavigation(menu, header, spaceAroundMenu) {
     menuButton.checked = false;
 }
 
-function createLinkElement(name, link) {
+function createLinkElement(name, link, additionalClassName = "") {
     const icon = document.createElement("img");
     icon.src = `/images/links/${name}.svg`;
     icon.classList.add("navigationPlatformIcon");
+    if (additionalClassName !== "") icon.classList.add(additionalClassName);
     icon.alt = name;
 
     const button = document.createElement("button");
