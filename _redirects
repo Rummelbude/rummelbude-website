@@ -1,11 +1,13 @@
-# SOURCE                          REDIRECT                          STATUS CODE
+# SOURCE                          REDIRECT                                       STATUS CODE
 
 # Renamed pages (Permanent redirects)
-/rummelbude-website               /                                 301
-/rummelbude-website/*             /:splat                           301
-/support                          /kontakt                          301
-/support/                         /kontakt                          301
+/rummelbude-website               /                                              301
+/rummelbude-website/*             /:splat                                        301
+/support                          /kontakt                                       301
+/support/                         /kontakt                                       301
 
 # Redirects for short links (Temporary redirects, as these may change in the future)
-/discord                          https://discord.gg/6EPk75PrXb     302
-/discord/                         https://discord.gg/6EPk75PrXb     302
+/discord                          https://discord.gg/6EPk75PrXb                  302
+/discord/                         https://discord.gg/6EPk75PrXb                  302
+/uptime                           https://stats.uptimerobot.com/9lGiI5xwa7       302
+/uptime/                          https://stats.uptimerobot.com/9lGiI5xwa7       302
