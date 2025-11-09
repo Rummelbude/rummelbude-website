@@ -1,4 +1,25 @@
 {
+  "hot-world": {
+    "name": "Hot World",
+    "id": "22_Hot_World",
+    "streaming": {},
+    "video": "",
+    "publishDate": "12.11.2025",
+    "songCount": 9,
+    "length": "30 Minuten, 27 Sekunden",
+    "instrumental": 7,
+    "songs": [
+      "Burning Bright (Prelude to Hot World)",
+      "Moroder Pt. 3",
+      "Hot World",
+      "Fade",
+      "Covid",
+      "Dreams",
+      "Lost",
+      "Ducks Crossing",
+      "Duskfall"
+    ]
+  },
   "moroder---pt.-3": {
     "name": "MORODER - pt. 3",
     "id": "21_MORODER_-_pt._3",
