@@ -2,7 +2,14 @@
   "hot-world": {
     "name": "Hot World",
     "id": "22_Hot_World",
-    "streaming": {},
+    "streaming": {
+      "Spotify": "https://open.spotify.com/album/0CorgBxix0gRGrj2pjIcmh",
+      "YouTube": "https://youtube.com/playlist?list=OLAK5uy_kPLcwcD35FmDW9UEF58aHQCNScpkSnCjw",
+      "YouTube Music": "https://music.youtube.com/playlist?list=OLAK5uy_kPLcwcD35FmDW9UEF58aHQCNScpkSnCjw",
+      "SoundCloud": "https://soundcloud.com/rummelbude_musik/sets/hot-world-2",
+      "Deezer": "https://link.deezer.com/s/31Ae51i0WdbBBfnsnv0VZ",
+      "Tidal": "https://tidal.com/album/471094738"
+    },
     "video": "",
     "publishDate": "12.11.2025",
     "songCount": 9,
