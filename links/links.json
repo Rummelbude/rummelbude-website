@@ -53,6 +53,10 @@
     "Apple-Music": {
       "name": "Apple Music",
       "link": "https://music.apple.com/de/artist/rummelbude/1823224348"
+    },
+    "Qobuz":  {
+      "name": "Qobuz",
+      "link": "https://open.qobuz.com/artist/29213478"
     }
   }
 }
