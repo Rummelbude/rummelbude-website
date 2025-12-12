@@ -26,7 +26,10 @@
       "Lost",
       "Ducks Crossing",
       "Duskfall"
-    ]
+    ],
+    "lyrics": {
+      "Hot World": true
+    }
   },
   "moroder---pt.-3": {
     "name": "MORODER - pt. 3",
@@ -48,7 +51,8 @@
     "instrumental": 1,
     "songs": [
       "MORODER - pt. 3"
-    ]
+    ],
+    "lyrics": {}
   },
   "ducks-crossing": {
     "name": "Ducks Crossing",
@@ -70,7 +74,8 @@
     "instrumental": 1,
     "songs": [
       "Ducks Crossing"
-    ]
+    ],
+    "lyrics": {}
   },
   "lost": {
     "name": "LOST",
@@ -93,7 +98,8 @@
     "instrumental": 1,
     "songs": [
       "LOST"
-    ]
+    ],
+    "lyrics": {}
   },
   "2nd-episode": {
     "name": "2ND EPISODE",
@@ -123,7 +129,8 @@
       "Sad guitar",
       "Stand by Me (Original by Ben E. King)",
       "You & Me (Flume Remix) (Original by Disclosure)"
-    ]
+    ],
+    "lyrics": {}
   },
   "moroder": {
     "name": "MORODER",
@@ -146,7 +153,8 @@
     "songs": [
       "MORODER - pt. 1",
       "MORODER - pt. 2"
-    ]
+    ],
+    "lyrics": {}
   },
   "hello": {
     "name": "HELLo",
@@ -180,7 +188,8 @@
       "Funkytown (Original by Lipps Inc.)",
       "SPACE",
       "SYNTHMASTER"
-    ]
+    ],
+    "lyrics": {}
   },
   "pluto": {
     "name": "PLUTO",
@@ -197,7 +206,8 @@
       "PLUTO",
       "ERIS",
       "ORCUS"
-    ]
+    ],
+    "lyrics": {}
   },
   "verkehrt": {
     "name": "VERKEHRT",
@@ -214,7 +224,8 @@
       "VERKEHRT",
       "TRHEKREV",
       "THERDREV"
-    ]
+    ],
+    "lyrics": {}
   },
   "kreativ-ii": {
     "name": "KREATIV II",
@@ -229,7 +240,8 @@
     "instrumental": 1,
     "songs": [
       "KREATIV II"
-    ]
+    ],
+    "lyrics": {}
   },
   "chaos": {
     "name": "CHAOS",
@@ -254,7 +266,8 @@
       "THROUGH THE CHAOS",
       "THE ENTRY",
       "HAPPY NEW YEAR"
-    ]
+    ],
+    "lyrics": {}
   },
   "kunst": {
     "name": "KUNST (feat. Hybrix)",
@@ -271,7 +284,8 @@
     "songs": [
       "KUNST (feat. Hybrix)",
       "KREATIV (feat. Hybrix)"
-    ]
+    ],
+    "lyrics": {}
   },
   "geometrie": {
     "name": "GEOMETRIE",
@@ -296,7 +310,8 @@
       "POWERFUL SQUARE",
       "ELLIPSE",
       "TeChNiScHe StÖrUnG"
-    ]
+    ],
+    "lyrics": {}
   },
   "happy-birthday": {
     "name": "HAPPY BIRTDAY",
@@ -312,7 +327,8 @@
     "songs": [
       "HAPPY BIRTHDAY",
       "PARTY"
-    ]
+    ],
+    "lyrics": {}
   },
   "wanted": {
     "name": "WANTED",
@@ -344,7 +360,8 @@
       "FINE",
       "WANTED - MR. MILLER 03",
       "GOOD BYE!"
-    ]
+    ],
+    "lyrics": {}
   },
   "schwarz": {
     "name": "SCHWARZ",
@@ -360,7 +377,8 @@
     "songs": [
       "SCHWARZ",
       "CHILL"
-    ]
+    ],
+    "lyrics": {}
   },
   "weiss": {
     "name": "WEISS",
@@ -375,7 +393,8 @@
     "instrumental": 1,
     "songs": [
       "WEISS"
-    ]
+    ],
+    "lyrics": {}
   },
   "deep-space": {
     "name": "Deep Space",
@@ -390,7 +409,8 @@
     "instrumental": 1,
     "songs": [
       "Deep Space"
-    ]
+    ],
+    "lyrics": {}
   },
   "im-weltall": {
     "name": "Im Weltall",
@@ -422,7 +442,8 @@
       "Spaziergang",
       "Drum Session",
       "Outro - Im Weltall"
-    ]
+    ],
+    "lyrics": {}
   },
   "soundbox": {
     "name": "Soundbox",
@@ -443,7 +464,8 @@
       "Soundbox - Song Nr. 3",
       "Soundbox - Song Nr. 4",
       "Soundbox - Song Nr. 5"
-    ]
+    ],
+    "lyrics": {}
   },
   "adventszauber-2020": {
     "name": "Adventszauber 2020",
@@ -460,7 +482,8 @@
       "Der dritte Advent",
       "Der vierte Advent",
       "Der 24.12.2020"
-    ]
+    ],
+    "lyrics": {}
   },
   "alles-banane": {
     "name": "Alles Banane",
@@ -482,7 +505,8 @@
       "Alles Banane - Song Nr. 5",
       "Alles Banane - Song Nr. 6",
       "Sad (Bonustrack)"
-    ]
+    ],
+    "lyrics": {}
   },
   "instrumenten-misch": {
     "name": "Instrumenten Misch",
@@ -508,6 +532,7 @@
       "Instrumenten Misch - Song Nr. 9",
       "Instrumenten Misch - Song Nr. 10",
       "Gimmick Drums (Bonus Track)"
-    ]
+    ],
+    "lyrics": {}
   }
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lyrics | Rummelbude</title>
+        <link rel="icon" type="image/x-icon" href="../../images/logo/logo-trans-small.png">
+        <link rel="stylesheet" href="../../style.css">
+        <link rel="stylesheet" href="../../resources/footer/style.css">
+        <script src="../../resources/redirects/automatedDomainRedirect.js"></script>
+        <script src="code.js" defer></script>
+        <script src="../../resources/navigation/code.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <script>
+            fetch('../../resources/navigation/index.html')
+                .then(response => response.text())
+                .then(data => document.querySelector('body').innerHTML += data);
+        </script>
+        <div id="topSpacer"></div>
+        <table id="header" class="headerWhenMenuClosed">
+            <tr>
+                <td id="headerTableLogo"><a href="/"><img id="logo" src="../../images/logo/logo.svg" alt="logo"></a></td>
+                <td id="headerTableText"><h1 id="headerText"><a href="../../musik">Musik</a> > <a id="albumName">Lyrics</a><span id="songName"></span></h1></td>
+                <td id="headerTableMenu">
+                    <input id="headerMenuButton" type="checkbox" onclick="navigationControl()">
+                    <label class="toggle" for="headerMenuButton">
+                        <span id="bar1" class="bars"></span>
+                        <span id="bar2" class="bars"></span>
+                        <span id="bar3" class="bars"></span>
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <img class="album albumPageContentHidden" id="albumCover" src="" alt="Album Cover" onclick="goToAlbum()">
+        <div class="contentDiv" id="lyrics">
+            <h2 class="textTop">Lyrics</h2>
+        </div>
+    </body>
+</html>

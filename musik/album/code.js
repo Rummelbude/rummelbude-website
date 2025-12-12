@@ -19,14 +19,13 @@ async function getAlbumData(album) {
  * @property {string} name
  * @property {string} id
  * @property {Object} streaming
- * @property {string} video
- * @property {boolean} video.exists
  * @property {string} video.link
  * @property {string} publishDate
  * @property {number} songCount
  * @property {string} length
  * @property {number} instrumental
  * @property {string[]} songs
+ * @property {object} lyrics
  */
 
 async function insertData() {
@@ -130,7 +129,15 @@ async function insertData() {
 
             const nameCell = document.createElement('td');
             nameCell.className = "nameCell";
-            nameCell.textContent = song;
+
+            if (albumData.lyrics[song]) {
+                const link = document.createElement("a");
+                link.href = `../lyrics/?album=${album}&song=${song}`;
+                link.textContent = song;
+                nameCell.appendChild(link);
+            } else {
+                nameCell.textContent = song;
+            }
 
             row.appendChild(numberCell);
             row.appendChild(nameCell);
