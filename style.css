@@ -249,7 +249,18 @@ button {
     border: 0;
     box-shadow: inset 0.4px 1px 4px var(--edge-light);
 
-    transition: all 0.1s var(--bezier);
+    /* Only animate paint/compositing properties, not layout ones */
+    transition: transform 0.1s var(--bezier),
+    box-shadow 0.1s var(--bezier),
+    background 0.1s var(--bezier),
+    color 0.1s var(--bezier),
+    text-shadow 0.1s var(--bezier);
+
+    /* Helps keep the scaling visually stable */
+    display: inline-flex;
+    justify-content: center;
+    transform-origin: center;
+    will-change: transform;
 }
 
 button:hover {
@@ -277,8 +288,12 @@ button:active {
     0 0 8px rgba(var(--accent-red), 0.6);
     text-shadow: 0 0 20px var(--text-light);
     color: rgba(255, 255, 255, 1);
-    letter-spacing: 0.1em;
-    transform: scale(1);
+
+    /* Keep letter-spacing constant so the button doesn't change width */
+    letter-spacing: 0.05em;
+
+    /* Still gives a "press" feel without affecting layout */
+    transform: scale(1.03);
 }
 
 a {
