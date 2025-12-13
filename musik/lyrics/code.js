@@ -28,7 +28,7 @@ async function insertSongData() {
         const albumLink = document.getElementById("albumName");
         albumLink.href = `../album/?album=${album}`;
         albumLink.textContent = albumData.name;
-        document.getElementById("songName").innerText = ` > ${albumData.name}`;
+        document.getElementById("songName").innerText = ` > ${song}`;
 
         document.getElementById("albumCover").src = `../../images/albums/${albumData.id}.jpg`;
         document.getElementById("albumCover").classList.remove("albumPageContentHidden");
