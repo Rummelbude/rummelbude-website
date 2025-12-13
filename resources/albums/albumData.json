@@ -11,7 +11,7 @@
       "Tidal": "https://tidal.com/album/471094738",
       "Qobuz": "https://open.qobuz.com/album/s8m4z8trv41tc"
     },
-    "video": "",
+    "video": "https://youtu.be/Q30twGmpVAk",
     "publishDate": "12.11.2025",
     "songCount": 9,
     "length": "30:27",
@@ -68,7 +68,7 @@
       "Tidal": "https://tidal.com/album/444677307",
       "Qobuz": "https://open.qobuz.com/album/qe4tuqi9obqac"
     },
-    "video": "https://youtu.be/Gjjw9z29UjQ?si=P3ZZpMko3Z38i7hi",
+    "video": "https://youtu.be/Gjjw9z29UjQ",
     "publishDate": "26.12.2024",
     "songCount": 1,
     "length": "04:06",
@@ -92,7 +92,7 @@
       "Apple Music": "https://music.apple.com/de/album/lost-single/1823224341",
       "Qobuz": "https://open.qobuz.com/album/tbrpzk7v116ob"
     },
-    "video": "https://youtu.be/DdOyPjpCrUQ?si=98UrIdTawwn6bFJR",
+    "video": "https://youtu.be/DdOyPjpCrUQ",
     "publishDate": "02.09.2024",
     "songCount": 1,
     "length": "04:15",
@@ -403,7 +403,7 @@
     "streaming": {
       "YouTube": "https://youtube.com/playlist?list=PLtiN0t0kunT7j_Rlfg10yzTYouAMiwXm_"
     },
-    "video": "",
+    "video": "https://youtu.be/GzJWp3vxHho",
     "publishDate": "31.03.2021",
     "songCount": 1,
     "length": "02:00",
