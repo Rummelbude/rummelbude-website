@@ -11,10 +11,17 @@ async function getAlbumData(album) {
     return json[album];
 }
 
+async function getLyrics(location) {
+    const response = await fetch(location);
+    if (!response.ok) window.location.href = "../";
+    return await response.json();
+}
+
 async function insertSongData() {
     const albumData = await getAlbumData(album);
 
     insertNameAndPicture();
+    insertLyrics()
 
     // Functions
     function insertNameAndPicture() {
@@ -25,6 +32,17 @@ async function insertSongData() {
 
         document.getElementById("albumCover").src = `../../images/albums/${albumData.id}.jpg`;
         document.getElementById("albumCover").classList.remove("albumPageContentHidden");
+    }
+    async function insertLyrics() {
+        const lyricsFile = `../../resources/albums/lyrics/${album}/${song}.json`;
+        const lyrics = await getLyrics(lyricsFile);
+
+        lyrics.forEach(line => {
+            const spanElement = document.createElement("span");
+            spanElement.innerText = line;
+            document.getElementById("lyrics").appendChild(spanElement);
+            document.getElementById("lyrics").appendChild(document.createElement("br"));
+        })
     }
 }
 
