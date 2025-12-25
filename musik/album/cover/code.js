@@ -11,7 +11,7 @@ async function insertData() {
         .then((json) => albumData = json);
 
     document.title = albumData[album].name + "-Cover | Rummelbude";
-    document.getElementById("albumCover").src = "../../../images/albums/" + albumData[album].id + ".jpg";
+    document.getElementById("albumCover").src = "../../../images/albums/" + albumData[album].id + ".webp";
 }
 
 function getQueryString() {

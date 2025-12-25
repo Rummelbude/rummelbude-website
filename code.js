@@ -38,7 +38,7 @@ async function loadAlbums() {
 
     newestAlbums.forEach((album, i) => {
         albumLinks[i].href = `musik/album/?album=${album.name.toLowerCase().replace(/ /g, "-")}`;
-        albumCovers[i].src = `images/albums/200x200/${album.id}_200x200.jpg`;
+        albumCovers[i].src = `images/albums/preview/${album.id}_preview.webp`;
     });
 }
 

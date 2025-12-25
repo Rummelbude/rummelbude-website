@@ -30,7 +30,7 @@ async function insertSongData() {
         albumLink.textContent = albumData.name;
         document.getElementById("songName").innerText = ` > ${song}`;
 
-        document.getElementById("albumCover").src = `../../images/albums/${albumData.id}.jpg`;
+        document.getElementById("albumCover").src = `../../images/albums/${albumData.id}.webp`;
         document.getElementById("albumCover").classList.remove("albumPageContentHidden");
     }
     async function insertLyrics() {

@@ -56,7 +56,7 @@ async function insertData() {
         document.title = albumData.name + " | Rummelbude";
         document.getElementById("name").innerHTML = ` > ${albumData.name}`;
         await adjustMenuPosition();
-        document.getElementById("albumCover").src = `../../images/albums/${albumData.id}.jpg`;
+        document.getElementById("albumCover").src = `../../images/albums/${albumData.id}.webp`;
         document.getElementById("albumCover").classList.remove("albumPageContentHidden");
         document.getElementById("biggerAlbumHint").classList.remove("albumPageContentHidden");
     }
@@ -99,7 +99,7 @@ async function insertData() {
     function insertVideoThumbnail() {
         const videoThumbnailContainer = document.getElementById("videoThumbnailContainer");
         const videoThumbnail = document.createElement("img");
-        videoThumbnail.src = "../../images/albums/video-thumbnails/" + albumData.id + "_videoThumbnail.jpg";
+        videoThumbnail.src = "../../images/albums/video-thumbnails/" + albumData.id + "_videoThumbnail.webp";
         videoThumbnail.id = "videoThumbnail";
         videoThumbnail.alt = "Video Thumbnail";
         videoThumbnail.onclick = function () {

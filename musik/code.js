@@ -37,7 +37,7 @@ async function loadAlbums() {
                 const albumImage = document.createElement('img');
                 albumImage.classList.add('albums');
                 albumImage.id = album.name;
-                albumImage.src = `../images/albums/200x200/${album.id}_200x200.jpg`;
+                albumImage.src = `../images/albums/preview/${album.id}_preview.webp`;
                 albumImage.alt = album.name;
 
                 const albumDate = document.createElement('p');
