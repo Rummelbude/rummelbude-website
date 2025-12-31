@@ -59,11 +59,8 @@ body {
     top: 4vmin;
     width: calc(100% - 8vmin);
 
-    background: rgb(var(--accent-red));
-    background: -moz-linear-gradient(90deg, rgba(var(--accent-red),1) 0%, rgba(27,0,0,1) 50%, rgba(var(--accent-red),1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(var(--accent-red),1) 0%, rgba(27,0,0,1) 50%, rgba(var(--accent-red),1) 100%);
-    background: linear-gradient(90deg, rgba(var(--accent-red),1) 0%, rgba(27,0,0,1) 50%, rgba(var(--accent-red),1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#210000",endColorstr="#210000",GradientType=1);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
 
     text-align: center;
     font-size: smaller;
@@ -166,11 +163,8 @@ body {
     font-size: smaller;
     padding: 2vmin;
 
-    background: rgb(var(--accent-red));
-    background: -moz-linear-gradient(90deg, rgba(var(--accent-red),1) 0%, rgba(27,0,0,1) 50%, rgba(var(--accent-red),1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(var(--accent-red),1) 0%, rgba(27,0,0,1) 50%, rgba(var(--accent-red),1) 100%);
-    background: linear-gradient(90deg, rgba(var(--accent-red),1) 0%, rgba(27,0,0,1) 50%, rgba(var(--accent-red),1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#210000",endColorstr="#210000",GradientType=1);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
 
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
