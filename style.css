@@ -59,7 +59,7 @@ body {
     top: 4vmin;
     width: calc(100% - 8vmin);
 
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(33, 0, 0, 0.3);
     backdrop-filter: blur(20px);
 
     text-align: center;
@@ -163,7 +163,7 @@ body {
     font-size: smaller;
     padding: 2vmin;
 
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(33, 0, 0, 0.3);
     backdrop-filter: blur(20px);
 
     border-bottom-left-radius: 0.5em;
